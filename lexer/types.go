@@ -36,7 +36,7 @@ var tokenValues = map[TokenType][]rune{
 	TokenDoubleQuote:     []rune{'"'},
 	TokenHash:            []rune{'#'},
 	TokenWhitespace:      []rune(" \f\t\r"),
-	TokenWord:            []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"),
+	TokenWord:            []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"),
 	TokenInteger:         []rune("0123456789"),
 	TokenColon:           []rune{':'},
 	TokenDot:             []rune{'.'},
